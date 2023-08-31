@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      function toggleSection(sectionId, linkId) {
+        var section = document.getElementById(sectionId);
+        var link = document.getElementById(linkId);
+
+        if (section.style.display === "none") {
+          section.style.display = "block";
+          link.textContent = "Read less";
+        } else {
+          section.style.display = "none";
+          link.textContent = "Read more";
+        }
+      }
+    </script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Journey</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/images/rmsLogo.png"
+            alt=""
+            class="rounded-pill"
+            style="width: 40px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pursuit.html">My Pursuits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="journey.html">My Journey</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <section class="my-container">
+        <h1>Journeying Through Learning: From Choices to Achievements</h1>
+        <hr />
+        <p>
+          Here on this page, my story unfolds a tale of decisions, aspirations,
+          and growth. Let's embark on this journey together.
+        </p>
+
+        <p>
+          As the horizon of college approached, I faced the formidable task of
+          choosing a course that would shape my future.
+          <a
+            href="javascript:void(0);"
+            onclick="toggleSection('collegeApproach', 'collegeApproachLink')"
+            id="collegeApproachLink"
+            >Read more</a
+          >
+        </p>
+
+        <div id="collegeApproach" style="display: none">
+          <p>
+            In those high school days, I believed that a popular engineering
+            course would guarantee success. With my math skills not far from
+            impressive, I dabbled in drafting, eager to lay my foundation.
+          </p>
+
+          <p>
+            But the pandemic swept in, shattering my illusions. It became
+            evident that a course alone couldn't carve a path to success; it was
+            about how I shaped it. A humbling realization led me to conclude
+            that engineering wasn't my calling. A search for my true passion
+            commenced.
+          </p>
+
+          <p>
+            Enter Don Honorio Ventura State University (DHVSU), my beacon of
+            hope. From a myriad of courses, two caught my eye Computer Science
+            and Information Technology. After careful contemplation, I chose
+            Information Technology, influenced by DHVSU's extension campus near
+            my home.
+          </p>
+
+          <p>
+            Anticipating the journey ahead, I immersed myself in self-study,
+            tackling the enigmatic realm of programming. From
+            <a
+              href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program"
+              target="_blank"
+              >Hello World</a
+            >
+            to more complex codes, I treaded this path before college, arming
+            myself with a semblance of knowledge.
+          </p>
+
+          <p>
+            College days arrived, and with them, the realization that knowing
+            the terms wasn't enough. Solving problems independently presented
+            challenges. My mind knew conditionals, yet struggled to apply them.
+            This marked the genesis of true progress.
+          </p>
+
+          <p>
+            Mistakes turned into stepping stones as I delved into programming
+            logic. YouTube tutorials taught me how to think like a programmer,
+            and a beacon of enlightenment appeared CS50. Through
+            <a
+              href="https://pll.harvard.edu/course/cs50s-introduction-programming-python"
+              target="_blank"
+              >CS50's Introduction to Programming with Python</a
+            >, I revisited the basics, appreciating the nuances of correct
+            coding.
+          </p>
+
+          <p>
+            My academic journey intertwined with the CS50 course, expanding my
+            prowess. But, as an honors student, time became a rarity. Completion
+            of the CS50 journey demanded a
+            <a
+              href="https://github.com/rainierXcode/CS50P-Final-Project"
+              target="_blank"
+              >final project</a
+            >
+            my creation inspired by ChatGpt. A chatbot, a manual response system
+            driven by input probabilities, emerged.
+          </p>
+
+          <p>
+            CS50X beckoned, and I ventured into HTML, CSS, and Javascript.
+            Lectures imparted knowledge, but before solving problems, I plunged
+            into the
+            <a href="https://www.theodinproject.com/dashboard" target="_blank"
+              >Odin Project</a
+            >, crafting projects like
+            <a href="https://github.com/rainierXcode/Rock-Paper-Scissor"
+              >rock-paper-scissors
+            </a>
+            and a
+            <a href="https://github.com/rainierXcode/Calculator" target="_blank"
+              >calculator</a
+            >, fostering independent creativity.
+          </p>
+
+          <p>
+            Beyond programming, college life thrived. Despite the challenges,
+            being an honor student and aspiring programmer, I managed to excel.
+            My first-year accolades include President Lister and Most
+            Outstanding Student in my department.
+          </p>
+
+          <p>
+            As the second year rolled in, this webpage emerged, encapsulating my
+            growth. It's more than just a programming journey; it's a testament
+            to my pursuit of personal success. My dreams aren't extravagant;
+            they involve the freedom to reward my parents and myself. This
+            webpage stands as a reminder a virtual pat on the back, urging me
+            forward.
+          </p>
+
+          <p>
+            So here we are, traversing the chapters of my story, from course
+            choices to academic achievements, and beyond. The journey is far
+            from over, but looking back, I've come a long way, and that's
+            something to be proud of.
+          </p>
+
+          <hr />
+          <h5>
+            CS50p Certificate of Completion: Introduction to Programming with
+            Python
+          </h5>
+          <img class="credit" src="images/CS50P.png" alt="cs50p-certificate" />
+
+          <h5>
+            Certificate of Academic Excellence: President's Lister and Most
+            Outstanding Student
+          </h5>
+          <img
+            class="credit"
+            src="images/recognition.png"
+            alt="most-outstanding"
+          />
+        </div>
+      </section>
+
+      <footer>Copyright &copy; Rainier Sapin</footer>
+    </div>
+  </body>
+</html>
