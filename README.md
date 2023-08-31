@@ -2,7 +2,7 @@
 
 # Exploring My Programming Journey
 
-Welcome to [my webpage](https://rainierxcode.github.io/Etch-a-Sketch) that chronicles my transformative journey as a beginner in the world of programming and technology.
+Welcome to [my webpage](https://rainierxcode.github.io/Own-Webpage) that chronicles my transformative journey as a beginner in the world of programming and technology.
 
 ## About Me
 
